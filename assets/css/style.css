@@ -78,6 +78,34 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
+/* .notification {
+  background-color: #06aed5;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 10px;
+} */
+
+.alert-box {
+  position: fixed;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #06aed5;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 25px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  z-index: 9999;
+}
+
 /* Footer code */
 
 .footer {
