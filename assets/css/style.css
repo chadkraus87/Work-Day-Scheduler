@@ -15,10 +15,10 @@ h1.display-3 {
 }
 
 body {
-  /* font-family: 'Open Sans', sans-serif; */
   font-family: 'Fira Sans Condensed', sans-serif;
   font-family: 'PT Sans', sans-serif;
   font-size: 16px;
+  background-image: url('../images/3dpurple.jpg');
 }
 
 textarea {
@@ -46,20 +46,23 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  border-bottom: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
 }
 
 .past {
-  background-color: #C2C2C2;
+  background-color: #95b0fd;
   color: white;
 }
 
 .present {
-  background-color: #9D58F4;
+  background-color: #ec48fb;
   color: white;
 }
 
 .future {
-  background-color: #5BE461;
+  background-color: #9bcbdf;
   color: white;
 }
 
@@ -67,7 +70,7 @@ textarea {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #51BFBA;
+  background-color: #94d3fe;
   color: white;
 }
 
@@ -81,7 +84,7 @@ textarea {
   top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #51BFBA;
+  background-color: #94d3fe;
   color: white;
   padding: 10px;
   text-align: center;
@@ -95,21 +98,31 @@ textarea {
 
 /* Legend key colors start */
 .past {
-  background-color: #C2C2C2;
+  background-color: #95b0fd;
 }
 
 .present {
-  background-color: #9D58F4;
+  background-color: #ec48fb;
 }
 
 .future {
-  background-color: #5BE461;
+  background-color: #9bcbdf;
 }
 
 /* Legend  styles*/
 .legend {
   margin-top: 20px;
+  width: 350px;
+  height: 30px;
   text-align: center;
+  border: 1px solid black;
+}
+
+.legend-container {
+  background-color: white;
+  padding: 0px;
+  max-width: 350px;
+  margin: 0 auto;
 }
 
 .legend span {
@@ -135,6 +148,7 @@ textarea {
   display: flex;
   justify-content: space-evenly;
   font-style: italic;
+  border: 1px solid black;
 }
 
 /* End footer code */
