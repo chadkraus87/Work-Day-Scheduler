@@ -14,10 +14,6 @@ h1.display-3 {
   font-weight: bold;
 }
 
-/* p.lead {
-  font-style: italic;
-} */
-
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -78,17 +74,6 @@ textarea {
   transition: all 0.3s ease-in-out;
 }
 
-/* .notification {
-  background-color: #06aed5;
-  color: white;
-  padding: 10px;
-  text-align: center;
-  font-size: 18px;
-  font-weight: bold;
-  font-style: italic;
-  margin-bottom: 10px;
-} */
-
 .alert-box {
   position: fixed;
   top: 20%;
@@ -106,9 +91,40 @@ textarea {
   z-index: 9999;
 }
 
+/* Legend key colors start */
+.past {
+  background-color: #d9d9d9;
+}
+
+.present {
+  background-color: #ff6961;
+}
+
+.future {
+  background-color: #77dd77;
+}
+
+/* Legend  styles*/
+.legend {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.legend span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.legend label {
+  display: inline-block;
+  margin-right: 10px;
+}
+
 /* Footer code */
 
-.footer {
+#footer {
   position: relative;
   width: 100%;
   background-color: white;
@@ -119,11 +135,7 @@ textarea {
   font-style: italic;
 }
 
-/* .footer a {
-  color: black;
-} */
-
-/* End footer */
+/* End footer code */
 
 /* Media queries */
 @media screen and (max-width: 500px) {

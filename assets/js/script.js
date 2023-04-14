@@ -1,17 +1,4 @@
 $(document).ready(function() {
-
-  // $(".saveBtn").on("click", function() {
-  //   // Save the user input in local storage using the id in the time block.
-  //   var key = $(this).parent().attr("id");
-  //   var value = $(this).siblings(".description").val();
-  //   localStorage.setItem(key, value);
-  //   // Show a notification at the top of the screen.
-  //   $("body").prepend("<div class='notification'>Success! Your appointment has been saved to your localStorage.</div>");
-  //   // Hide the notification after 3 seconds.
-  //   setTimeout(function() {
-  //     $(".notification").remove();
-  //   }, 3000);
-  // }); 
   
   $(".saveBtn").on("click", function() {
     // Save the user input in local storage using the id in the time block.
@@ -78,3 +65,24 @@ $(document).ready(function() {
 
   setInterval(updateTime, 1000);
 });
+
+// Randomized footer quotes.
+var quotes = [
+  "There are no shortcuts to any place worth going. -Beverly Sills",
+  "Hard work beats talent when talent fails to work hard. -Kevin Durant",
+  "Work hard, keep your nose clean, and just stick around. -Clint Eastwood",
+  "Don't get bitter, just get better. -Alyssa Edwards",
+  "Water off a duck's back. -Jinkx Monsoon",
+  "When you become the image of your imagination, it's the most powerful thing you could ever do. -RuPaul",
+  "No bird soars too high if he soars with his own wings. -William Blake",
+  "You are only free when you realize you belong no place - you belong every place - no place at all. The price is high. The reward is great. -Brené Brown",
+  "Set your goals high, and don't stop till you get there. -Bo Jackson",
+  "The dictionary is the only place that success comes before work. Work is the key to success, and hard work can help you accomplish anything. -Vince Lombardi",
+  "A journey of a thousand miles must begin with a single step. -Lao Tzu"
+  ];
+  
+  // Select a random quote from the array.
+  var randomQuote = quotes[Math.floor(Math.random() * quotes.length)];
+  
+  // Insert the random quote into the footer.
+  $("#footer").text(randomQuote);
