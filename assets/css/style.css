@@ -1,3 +1,23 @@
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+header > * {
+  margin: 0;
+}
+
+h1.display-3 {
+  font-weight: bold;
+}
+
+/* p.lead {
+  font-style: italic;
+} */
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
@@ -57,3 +77,37 @@ textarea {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
 }
+
+/* Footer code */
+
+.footer {
+  position: relative;
+  width: 100%;
+  background-color: white;
+  color: black;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-style: italic;
+}
+
+/* .footer a {
+  color: black;
+} */
+
+/* End footer */
+
+/* Media queries */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+}
+
+/* End Media queries */
