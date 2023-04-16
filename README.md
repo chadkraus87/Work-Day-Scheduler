@@ -3,7 +3,7 @@ A calendar application that allows a user to store data for each hour of the day
 
 ## Description
 
-This webpage highlights a simple, work day scheduler application from 9 AM - 5 PM that allows the user to store data for each hour of the day and save their information to local storage after clicking the Save icon. When the page refreshes, the save data remains until it is deleted by the user.
+This webpage highlights a simple, work day scheduler application from 9 AM - 5 PM that allows the user to store data for each hour of the day and save their information to local storage after clicking the Save icon. After the user clicks the Save button for their chosen time block, the user is presented with an alert box notifiying them that their changes have been saved. When the page refreshes, the save data remains until it is deleted by the user.
 
 This calendar also includes the ability to display the current date and time, based on the user's location. Additional HTML has been added to show a color key to the user for past, present, and future events. For added inspiration to help you through the work day, additional JavaScript code has been added into the footer to display a random quote generator of pre-stored, inspirational quotes. A background image has been added and the CSS has been modified to match the background image colors.
 

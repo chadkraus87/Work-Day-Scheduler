@@ -39,7 +39,7 @@ textarea {
 }
 
 .row {
-  border-top: 1px solid white;
+  border-top: 2px solid white;
 }
 
 .hour {
@@ -81,8 +81,8 @@ textarea {
 
 .alert-box {
   position: fixed;
-  top: 20%;
-  left: 50%;
+  top: 15%;
+  left: 20%;
   transform: translate(-50%, -50%);
   background-color: #94d3fe;
   color: white;

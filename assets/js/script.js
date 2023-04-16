@@ -5,15 +5,15 @@ $(document).ready(function() {
     var key = $(this).parent().attr("id");
     var value = $(this).siblings(".description").val();
     localStorage.setItem(key, value);
-    // Show a custom alert box with the notification message.
-    showAlert("Success! Your appointment details have been saved.");
+    // Show save notification.
+    showAlert("Success! Your calendar changes have been saved to local storage.");
   });
   
   function showAlert(message) {
-    // Create a new div element to hold the alert box content.
+    // Div element to hold the alert box.
     var alertBox = document.createElement("div");
     alertBox.classList.add("alert-box");
-    // Create a new paragraph element to hold the message text.
+    // New paragraph to hold the alert message.
     var alertMessage = document.createElement("p");
     alertMessage.textContent = message;
     alertBox.appendChild(alertMessage);
