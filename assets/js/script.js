@@ -6,7 +6,7 @@ $(document).ready(function() {
     var value = $(this).siblings(".description").val();
     localStorage.setItem(key, value);
     // Show a custom alert box with the notification message.
-    showAlert("Success! Your appointment has been saved to your localStorage.");
+    showAlert("Success! Your appointment details have been saved.");
   });
   
   function showAlert(message) {
@@ -54,7 +54,7 @@ $(document).ready(function() {
     }
   });
 
-  // Show the current date and time on the page.
+  // Show the current date on the page.
   $("#currentDay").text(moment().format("dddd, MMMM Do"));
 
   // Show the current time on the page.
